@@ -1,0 +1,27 @@
+{
+	// Debugger
+	"debug.javascript.usePreview": true,
+
+	// Editor Settings
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": false
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+
+	// Language settings
+	"javascript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib",
+
+	// NPM settings
+	"npm.packageManager": "npm",
+	"eslint.packageManager": "npm",
+
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

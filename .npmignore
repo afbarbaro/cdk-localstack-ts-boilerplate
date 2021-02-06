@@ -1,0 +1,22 @@
+*.ts
+!*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+src/
+tests/
+.vscode/
+
+*.code-workspace
+*.tgz
+.env
+.env.*
+.eslint*
+.git*
+.npm*
+.prettier*
+jest.config.js
+junit.xml
+tsconfig.json
